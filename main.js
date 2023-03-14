@@ -11,7 +11,7 @@ let app = new Vue({
     },
     methods: {
       getAllGithubsPosts() {
-        fetch("https://api.github.com/users/sercwn/repos").then((res) => {
+        fetch("https://api.github.com/users/Loswer06/repos").then((res) => {
           res.json().then((response) => {
             this.githubProjects = response;
           });
